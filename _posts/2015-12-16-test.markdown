@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Test"
+date:   2015-12-16 00:43:08 +0000
+categories: jekyll test
+---
+
+This is a test post to verify all things Jekyll and markdown. Check it out:
+*Italics*
+**Bold**
+**_Bold and Italic_**
+~~Strikethrough~~
+
+1. First ordered list item
+2. Another item
+  * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+  1. Ordered sub-list
+4. And another item.
+
+   Indenting paragraphs with leading spaces
+   
+No leading spaces
+
+You can [link](https://www.google.com) many [different][1] ways, like [this]!
+
+[1]: http://www.ultimate-guitar.com
+[this]: https://github.com
+
+Images can be added similarly: ![alt text][logo]
+
+[logo]: /images/githubzombie.ico
+
+Inline `code` has `backticks` around it.
+
+Language specific highlighting can be used
+
+
+```ruby
+x = "Ruby syntax highlighting"
+puts x
+```
+
+
+Yay | Tables
+--- | ---
+*SO* | **nice**
+
+
+| Second | Table |
+| ------ | ------ |
+| even | better |
+
+
+You can use blockquotes to emulate reply text
+
+>Check it out
+
+Horizontal rules can be done like this
+
+---
+or this
+
+***
+or this
+
+___
+
+
+A lot of this was discovered using this [Markdown Cheatsheet][2]
+
+[2]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+
+
+
