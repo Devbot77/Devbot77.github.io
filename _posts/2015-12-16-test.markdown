@@ -33,7 +33,7 @@ Images can be added similarly: ![alt text][logo]
 
 Inline `code` has `backticks` around it.
 
-Language specific highlighting can be used
+Language specific highlighting can be used<br />
 
 
 ```ruby
@@ -46,6 +46,7 @@ Yay | Tables
 --- | ---
 *SO* | **nice**
 
+<br />
 
 | Second | Table |
 | ------ | ------ |
@@ -65,6 +66,7 @@ or this
 or this
 
 ___
+
 
 
 A lot of this was discovered using this [Markdown Cheatsheet][2]
