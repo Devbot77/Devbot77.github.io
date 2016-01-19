@@ -101,8 +101,9 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 2px solid $grey-color-dark;
     padding: $spacing-unit 0;
+    background-color: #ebebeb
 }
 
 .footer-heading {
@@ -172,7 +173,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    background-color: #CECFD6;
+    background: url(../images/brickwall.png);
 }
 
 .page-heading {
@@ -185,6 +186,9 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        background-color: white;
+        padding: $spacing-unit;
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
     }
 }
 
