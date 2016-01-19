@@ -1,15 +1,29 @@
+html, body {
+    height: 100%;
+}
+
 /**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 2px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 120px;
+    background: #333536 url(../images/black_white_guitar_cover_7.jpg);
+    background-size: 100%;
+    color: #fff;
 
     // Positioning context for the mobile navigation icon
     position: relative;
-    background-color: #333536;
-    color: #fff;
+
+    .overlay {
+    background: rgba(#000, .75);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    }
 }
 
 .site-title {
@@ -103,7 +117,9 @@
 .site-footer {
     border-top: 2px solid $grey-color-dark;
     padding: $spacing-unit 0;
-    background-color: #ebebeb
+    background-color: #ebebeb;
+    height: 120px;
+
 }
 
 .footer-heading {
@@ -174,6 +190,8 @@
 .page-content {
     padding: $spacing-unit 0;
     background: url(../images/brickwall.png);
+    min-height: 100%;
+
 }
 
 .page-heading {
